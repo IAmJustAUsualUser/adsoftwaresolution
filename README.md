@@ -1,3 +1,3 @@
-#SI calculator  by Anup Dharel
+#SI calculator by Anup Dharel
 
-## link:- https://si-calculator-alpha.vercel.app/
+## Live link:- https://adsoftwaresolution.vercel.app/
