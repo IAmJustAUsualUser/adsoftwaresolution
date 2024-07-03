@@ -11,6 +11,13 @@
       href="images/favicon-32x32.png"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
@@ -20,8 +27,16 @@
   </head>
 
   <body>
+    <a href="#">
+      <div class="gototop" id="gototop">
+        <i
+          class="fa-solid fa-circle-arrow-up fa-3x"
+          style="color: white; background-color: green; border-radius: 24px"
+        ></i>
+      </div>
+    </a>
     <nav
-      class="navbar navbar-expand-lg bg-dark bg-gradient text-white"
+      class="sticky-top navbar navbar-expand-lg bg-dark bg-gradient text-white"
       data-bs-theme="dark"
     >
       <div class="container-fluid">
@@ -111,7 +126,22 @@
         </ol>
       </nav>
     </div>
+
     <div class="col-6 offset-3">
+      <div
+        class="fb-share-button"
+        data-href="https://developers.facebook.com/docs/plugins/"
+        data-layout=""
+        data-size=""
+      >
+        <a
+          target="_blank"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+          class="fb-xfbml-parse-ignore"
+          >Share</a
+        >
+      </div>
+
       <img
         src="images/digital-marketing.jpeg"
         alt="digital-marketing"
@@ -174,6 +204,14 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
+    ></script>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0"
+      nonce="yvKkcrWW"
     ></script>
   </body>
 </html>

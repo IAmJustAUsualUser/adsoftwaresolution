@@ -8,6 +8,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  min-height: 100%;
+  width: 100%;
 }
 
 .slider {
@@ -76,4 +78,16 @@ p {
   padding: 9px 0.75rem;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.about-hr {
+  width: 130px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: black;
+  height: 3px;
+}
+
+.success-page {
+  height: 63vh;
 }
